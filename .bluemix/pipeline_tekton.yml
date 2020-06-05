@@ -5,20 +5,20 @@ inputs:
     service: ${PIPELINE_REPO}
     path: .pipeline
   - type: git
-    branch: tkn_v1beta1
+    branch: master
     service: ${TEKTON_CATALOG_REPO}
     path: git
   - type: git
-    branch: tkn_v1beta1
+    branch: master
     service: ${TEKTON_CATALOG_REPO}
     path: container-registry
   - type: git
     service: ${TEKTON_CATALOG_REPO}
-    branch: tkn_v1beta1
+    branch: master
     path: kubernetes-service
   - type: git
     service: ${TEKTON_CATALOG_REPO}
-    branch: tkn_v1beta1
+    branch: master
     path: toolchain
   - type: git
     branch: master
