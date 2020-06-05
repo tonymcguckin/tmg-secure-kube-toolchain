@@ -58,7 +58,7 @@ services:
     service_id: >
       $env.pipeline_type === 'tekton' ? 'githubconsolidated' : ''
     parameters:
-      repo_url: "https://github.com/open-toolchain/tekton-catalog"
+      repo_url: "https://github.com/tonymcguckin/tmg-tekton-1"
       type: "link"
       has_issues: false
       enable_traceability: false
